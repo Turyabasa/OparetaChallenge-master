@@ -24,3 +24,5 @@ Download app code from https://drive.google.com/file/d/1PFtSZR7cqviSWByLl1aqSkFz
 then click file >> new >> import project to get unzipped project folder or open existing project to access the folder with the project files
 
 When imported collectly run the application To confirm everything is set upcorrectly
+
+Then runtest by going to app/src/androidTest/java/com/leroy/oparetachallenge/ui/MainActivityTest.kt click run icon.
