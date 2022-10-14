@@ -14,7 +14,7 @@ class NetworkInterceptor : Interceptor {
         val timeout =
             if (sTimeout != null && TextUtils.isDigitsOnly(sTimeout)) sTimeout.toInt() else 60
         val requestBuilder = original.newBuilder()
-            .header("X-CMC_PRO_API_KEY", "c58ec682-f50e-4fc5-91d1-b9e7e0bef66c")
+            .header("X-CMC_PRO_API_KEY", "6c3cb570-cfd6-4ddc-9c1b-7e5bddb2c69a")
             .method(original.method, original.body)
         val newRequest = requestBuilder.build()
         val response = chain.withConnectTimeout(timeout, TimeUnit.SECONDS).proceed(newRequest)
